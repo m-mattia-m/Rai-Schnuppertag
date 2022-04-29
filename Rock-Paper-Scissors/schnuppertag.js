@@ -1,6 +1,6 @@
-/**
- * TODO: Variablen
- */
+var choices = ["paper", "rock", "scissors"];
+var i = Math.floor(Math.random() * 3);
+var ComChoice = choices[i];
 var UserPoints = 0;
 var ComPoints = 0;
 //Für Anzeige des Scores
@@ -15,6 +15,7 @@ function convert(word) {
     if (word === "rock") return '<i class="far fa-hand-rock"></i>';
     return '<i class="far fa-hand-scissors"></i>';
 }
+
 function game(UserChoice) {
     //Anzeige der Auswahl von User und Com
     var box = document.getElementById("challenge");
@@ -29,33 +30,34 @@ function game(UserChoice) {
     function continuGame() {
         /** 
          * TODO: Neue Auswahl com
-        */
+         */
     }
     setTimeout(continuGame, 1200);
 }
+
 function win(bn) {
     UserPoints++;
     document.getElementById("who").innerHTML = "You win!";
     var bn = document.getElementById(bn);
     bn.classList.remove("bn");
     bn.classList.add("green");
-    //Grünen Ring nach 1.2sec entfernen
     setTimeout(() => {
         bn.classList.add("bn");
         bn.classList.remove("green");
     }, 1200);
 }
+
 function draw(bn) {
     document.getElementById("who").innerHTML = "It's a Draw.";
     var bn = document.getElementById(bn);
     bn.classList.remove("bn");
     bn.classList.add("gray");
-    //Grauen Ring nach 1.2sec entfernen
     setTimeout(() => {
         bn.classList.add("bn");
         bn.classList.remove("gray");
     }, 1200);
 }
+
 function lose(bn) {
     ComPoints++;
     document.getElementById("who").innerHTML = "You lose...";
