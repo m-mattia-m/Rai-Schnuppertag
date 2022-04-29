@@ -42,6 +42,10 @@ $(document).ready(function() {
         $("#input").val(input)
     })
 
+    $("#button-dot").click(function() {
+        $("#input").val($("#input").val() + ".");
+    })
+
 
 
     $("#button-0").click(function() {
