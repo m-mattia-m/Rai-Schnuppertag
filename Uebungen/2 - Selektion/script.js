@@ -63,7 +63,7 @@ function whatDrink(alter) {
 /*
  *   Aufgabe 8: BMI
  *   -----------------------------------
- *   Schreibe eine Funktion, die den "body mass index" berechnet. (bmi = weight / height ^ 2).
+ *   Schreibe eine Funktion, die den "body mass index" berechnet. (bmi = weight[kg] / height[m] ^ 2).
  *
  *   if bmi <= 18.5 return "Underweight"
  *
