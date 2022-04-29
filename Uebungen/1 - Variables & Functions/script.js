@@ -62,7 +62,7 @@ function multiplizieren(zahl1, zahl2)  {
 }
 
 
-/*   Aufgabe 4: Functions 1.0
+/*   Aufgabe 4: Functions 2.0
  *   -----------------------------------
  *   Erstelle eine Function die den Rest der Division ausgibt.
  */
@@ -71,7 +71,7 @@ function modulo1(zahl1, zahl2) {
     console.log(zahl1 % zahl2);
 }
 
-/*   Aufgabe 5: Functions 2.0
+/*   Aufgabe 5: Functions 3.0
  *   -----------------------------------
  *   Erstelle eine Function die den Rest einer Division zurück gibt
  */
