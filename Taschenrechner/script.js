@@ -1,26 +1,48 @@
 var result = 0;
+var currentNumber = 0;
+var currentOperation = ""
 
 $(document).ready(function() {
 
-    $("#button-equal").click(function() {
-        calcNumber("=");
+    $(".container").click(function() {
+        checkInput()
+    })
+
+    $("#button-divide").click(function() {
+        currentOperation = "/"
+        saveNumber();
+    })
+
+    $("#button-multiply").click(function() {
+        currentOperation = "*"
+        saveNumber();
+    })
+
+    $("#button-plus").click(function() {
+        currentOperation = "+"
+        saveNumber();
+    })
+
+    $("#button-minus").click(function() {
+        currentOperation = "-"
+        saveNumber();
     })
 
     $("#button-equal").click(function() {
-        calcNumber("=");
+        calc();
     })
 
-    $("#button-equal").click(function() {
-        calcNumber("=");
+    $("#button-clear").click(function() {
+        clear()
     })
 
-    $("#button-equal").click(function() {
-        calcNumber("=");
+    $("#button-backspace").click(function() {
+        var input = $("#input").val();
+        input = input.substring(0, input.length - 1);
+        $("#input").val(input)
     })
 
-    $("#button-equal").click(function() {
-        calcNumber("=");
-    })
+
 
     $("#button-0").click(function() {
         $("#input").val($("#input").val() + "0");
@@ -66,25 +88,45 @@ $(document).ready(function() {
 });
 
 
-function calcNumber(operation) {
-    var input = $("#input").val();
-    switch (operation) {
+function saveNumber() {
+    var input = parseFloat($("#input").val());
+    currentNumber = parseFloat(input);
+    $("#input").val(0);
+}
+
+function calc() {
+    var input = parseFloat($("#input").val());
+    switch (currentOperation) {
         case "+":
-            result = result + input;
+            result = currentNumber + input;
             break
         case "-":
-            result = result - input;
+            result = currentNumber - input;
             break
         case "*":
-            result = result * input;
+            result = currentNumber * input;
             break
         case "/":
-            result = result / input;
+            result = currentNumber / input;
             break
-        case "=":
-            result = input;
         default:
             console.log("Error");
     }
+    console.log(result)
     $("#input").val(result);
+}
+
+function clear() {
+    result = 0
+    currentNumber = 0
+    currentOperation = ""
+    $("#input").val(0)
+}
+
+function checkInput() {
+    var input = $("#input").val();
+    if (input.length > 1 && input.charAt(0) == "0") {
+        input = input.substring(1)
+        $("#input").val(input)
+    }
 }
