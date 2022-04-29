@@ -22,18 +22,27 @@ console.log('Start');
  */
 
 
-/*   Aufgabe 4: Functions 2.0
+/*   Aufgabe 4: Functions 1.0
  *   -----------------------------------
- *   Erstelle eine Function die den Rest einer Division zurück gibt
+ *   Erstelle eine Function die 2 + 3 zusammenrechnet und ausgibt (nicht als Parameter übergeben)
  */
 
-/*   Aufgabe 5: Rechner 1.0
+
+/*   Aufgabe 6: Rechner 1.0
  *   -----------------------------------
  *   Erstelle vier Functions (Addition, Subtraktion, Division, Multiplikation)
  *   Gebe zwei Zahlen mit und verrechne sie entsprechend der Operation
  */
 
-/*   Aufgabe 5: Functions 1.0
+
+/*   Aufgabe 4: Functions 2.0
  *   -----------------------------------
  *   Erstelle eine Function die den Rest der Division ausgibt.
+ */
+
+
+
+/*   Aufgabe 5: Functions 3.0
+ *   -----------------------------------
+ *   Erstelle eine Function die den Rest einer Division zurück gibt
  */
