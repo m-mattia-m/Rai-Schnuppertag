@@ -38,7 +38,7 @@ doWhile();
  *   729
  */
 function exponential() {
-    for (var i = 3; i <= 729; i * i) {
+    for (var i = 3; i <= 729; i *= 3) {
         console.log(i);
     }
 }
