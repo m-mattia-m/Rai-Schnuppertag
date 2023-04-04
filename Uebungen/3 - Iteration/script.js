@@ -28,7 +28,7 @@ doWhile();
 /*
  *   Aufgabe 3: For-Schliefe
  *   -----------------------------------
- *   erstelle eine For-Schleife, welche das folgende Ausgibt
+ *   Erstelle eine For-Schleife, welche das Folgende ausgibt
  *
  *   3
  *   9
@@ -45,13 +45,13 @@ function exponential() {
 
 /*   Aufgabe 4: Durchschnittsberechnung
  *   -----------------------------------
- *   Man erhält ein Array aus Zahlen und soll den durchschnitt berechnen
+ *   Man erhält ein Array aus Zahlen und soll den Durchschnitt berechnen
  *
  *
  *   Vorgehen:
- *       1. For Schleife erstellen
- *       2. Zahl zum durchschnitt hinzufügen und Schleifenvariable um 1 erhöhen
- *       3. durchschnitt berechnen
+ *       1. For-Schleife erstellen
+ *       2. Zahl zum Durchschnitt hinzufügen und Schleifenvariable um 1 erhöhen
+ *       3. Durchschnitt berechnen
  */
 var zahlen = [1, 2, 3, 3, 3, 4, 5, 9, 24];
 
@@ -69,12 +69,12 @@ function durchschnittsBerechnung(zahlen) {
 
 /*   Aufgabe 5: Summe aller positiven Zahlen
  *   -----------------------------------
- *   Du erhälst ein Zahlen Array und gibst die Summe aller positiven Zahlen zurück
+ *   Du erhältst ein Zahlen Array und gibst die Summe aller positiven Zahlen zurück
  *
  *   Bsp: [1,-4,7,12] => 1 + 7 + 12 = 20
  *
  *   Vorgehen:
- *       1. For Schleife erstellen
+ *       1. For-Schleife erstellen
  *       2. Ist die Zahl grösser als 0?
  *           2.1 Zahl zum Resultat hinzufügen
  */

@@ -3,7 +3,7 @@ console.log('Start');
 /*
 *   Aufgabe 1:  Fehlersuche 1
 *   -----------------------------------
-*   Variabeln sind Falsch deklariert
+*   Variabeln sind falsch deklariert
 */
 function fehlersuche1() {
     

@@ -31,12 +31,12 @@ function game(UserChoice) {
   } else {
     lose(UserChoice);
   }
-  function continuGame() {
+  function continueGame() {
     i = Math.floor(Math.random() * 3);
     ComChoice = choices[i];
     box.style.display = "none";
   }
-  setTimeout(continuGame, 1200);
+  setTimeout(continueGame, 1200);
 }
 function win(bn) {
   UserPoints++;
