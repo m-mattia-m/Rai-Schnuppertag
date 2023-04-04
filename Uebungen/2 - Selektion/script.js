@@ -39,5 +39,5 @@ console.log('Start');
 
 /*   Aufgabe 6: Switch-Case (Freiwillig wenn genügend Zeit)
  *   -----------------------------------
- *   Erstelle eine Klasse Person
+ *   Erstelle ein Switch-Case Statement für die Aufgabe 5
  */
