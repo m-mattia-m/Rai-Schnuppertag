@@ -27,12 +27,12 @@ function game(UserChoice) {
     /**
      * TODO: Gameabfragen
      */
-    function continuGame() {
+    function continueGame() {
         /** 
          * TODO: Neue Auswahl com
          */
     }
-    setTimeout(continuGame, 1200);
+    setTimeout(continueGame, 1200);
 }
 
 function win(bn) {

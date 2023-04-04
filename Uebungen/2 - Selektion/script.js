@@ -2,7 +2,7 @@ console.log('Start');
 
 /*   Aufgabe 1: Selektion 1.0
  *   -----------------------------------
- *   Wenn Zahl grösser als 0 gebe aus: die Zahl  ist postiv
+ *   Wenn Zahl grösser als 0 gebe aus: die Zahl ist postiv
  *   Falls Zahl Kleiner als 0 ist gebe aus: die Zahl ist negativ
  */
 
@@ -20,7 +20,7 @@ console.log('Start');
 
 /*   Aufgabe 4: Trinkspiel
  *   -----------------------------------
- *   Erstelle eine Function welche je nach Alter folgendes zurück gibt:
+ *   Erstelle eine Funktion, welche je nach Alter folgendes zurück gibt:
  *   bei Alter unter 18 : nichts da!
  *   zwischen 18 und 45: zwei Birchen gehen
  *   zwischen 50 und 80: ein Whiskey
